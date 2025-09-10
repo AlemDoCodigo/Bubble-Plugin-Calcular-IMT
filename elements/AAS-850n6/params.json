@@ -1,0 +1,99 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Calcular IMT",
+    "fields": {
+        "AAM": {
+            "caption": "local_imovel",
+            "doc": "Textos \"continente\" ou \"regiões autónomas\"",
+            "editor": "DynamicValue",
+            "name": "local_imovel",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "finalidade",
+            "doc": "\"habitação própria e permanente\" ou \"habitação\"",
+            "editor": "DynamicValue",
+            "name": "finalidade",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "valor_imovel",
+            "doc": "indique o valor que for maior: valor contrato ou valor patrimonial tributado ",
+            "editor": "DynamicValue",
+            "name": "valor_imovel",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAT": {
+            "caption": "IMT jovem",
+            "doc": "Isenção IMT Jovens",
+            "editor": "DynamicValue",
+            "name": "imt_jovem",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAV": {
+            "caption": "percentagem_imposto_selo",
+            "default_val": 0.008,
+            "editor": "DynamicValue",
+            "name": "percent_imposto_selo",
+            "optional": true,
+            "rank": 4,
+            "value": "number"
+        }
+    },
+    "icon": "ion-cash",
+    "property_applications": {
+        "Background": false,
+        "Border": false,
+        "BoxShadow": false,
+        "Font": false,
+        "MinWidth": false,
+        "Padding": false,
+        "resizable": true
+    },
+    "states": {
+        "AAP": {
+            "caption": "valor_imt",
+            "doc": "Resultado imposto IMT",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "valor_imt",
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "taxa",
+            "doc": "Taxa aplicado para calcular o imposto IMT",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "taxa",
+            "value": "number"
+        },
+        "AAR": {
+            "caption": "parcela_a_abater",
+            "doc": "Parcela a abater com base na tabela de IMT",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "parcela_a_abater",
+            "value": "number"
+        },
+        "AAU": {
+            "caption": "imposto_selo",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "imposto_selo",
+            "value": "number"
+        }
+    }
+}

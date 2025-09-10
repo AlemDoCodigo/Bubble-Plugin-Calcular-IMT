@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "compliance",
+        "1": "productivity"
+    },
+    "data_tracked": false,
+    "demo_page": "https://bubble.io/page?id=hugo-11171&test_plugin=1675179298136x315456087456481300_current&tab=Design&name=simulador_imt&ai_generated=true&type=page",
+    "description": "Calcular imposto IMT \n\nhttps://www.apcmc.pt/legislacao/imt-tabelas-praticas-em-vigor-desde-1-de-janeiro-2025/\n\n\nIsenção imposto de selo: https://www.gov.pt/servicos/pedir-isencao-imt-e-is\n\nhttps://hugo-11171.bubbleapps.io/version-test/simulador_imt?debug_mode=true",
+    "image": "//s3.amazonaws.com/appforest_uf/f1675351286240x646501472816086300/NOCODE%20%281%29.png",
+    "license": "open_source",
+    "name": "Calcular IMT",
+    "plugin_instructions": "",
+    "sa_node_version": 18
+}
